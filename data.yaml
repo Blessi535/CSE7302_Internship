@@ -1,0 +1,7 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Indian Sambar Onion-Small Size-', 'Light Yellow Onion', 'Red Onion', 'Spring Onion', 'White Onion', 'Yellow Onion']
+
