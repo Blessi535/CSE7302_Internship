@@ -1,0 +1,10 @@
+cd Detection
+
+python -m venv venv
+venv\Scripts\activate
+
+pip install ultralytics flask opencv-python matplotlib
+yolo detect train data=data.yaml model=yolov8n.pt epochs=50 imgsz=640
+
+
+Note : The version version of python should be above 3.13 and opencv of 4.4 above 
