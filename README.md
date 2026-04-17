@@ -64,6 +64,8 @@ pip install -r requirements.txt
 
 ## 2️⃣ Download YOLOv8 Model
 
+Train the model with 50 epochs time taken is 30 to 40 minutes.
+
 ## 3️⃣ Place your trained model:
 
 runs/detect/train/weights/best.pt
